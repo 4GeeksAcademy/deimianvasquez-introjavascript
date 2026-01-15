@@ -22,19 +22,54 @@
 // - No usar ciclos ni funciones.
 
 
-let nota = 75 
-let aprueba = false 
-let message = ""
+// let nota = 75 
+// let aprueba = false 
+// let message = ""
 
 
-if(nota >= 60){
-    aprueba = true
-    message = `Felicitaciones, has aprobado`
-}else{
-    aprueba = false
-    message = `:( Debes estudiar más`
-}
+// if(nota >= 60){
+//     aprueba = true
+//     message = `Felicitaciones, has aprobado`
+// }else{
+//     aprueba = false
+//     message = `:( Debes estudiar más`
+// }
 
-console.log("Nota:", nota)
-console.log("Aprueba:", aprueba)
-console.log(message)
+// console.log("Nota:", nota)
+// console.log("Aprueba:", aprueba)
+// console.log(message)
+
+/*
+    Escribe un programa que solicite al usuario ingresar el número de kilómetros recorridos
+    por su coche y el número de litros consumidos.
+
+    El script debe mostrar el consumo de combustible por kilómetro.
+
+*/
+
+
+// let litros = window.prompt("Cantidad de litros: ")
+// let kilometros = window.prompt("Ingresa kilómetros recorridos: ")
+
+// function calculus(ltrs = 0, kils = 0) {
+
+//     let resultado = 0
+//     ltrs = Number(ltrs)
+//     kils = Number(kils)
+
+//     if (typeof (ltrs) != "number" && typeof (kils) != "number") {
+//         alert("Ambos datos ingresados deben ser números")
+//     } else {
+//         resultado = ltrs / kils
+//         resultado = resultado.toFixed(2)
+//     }
+
+//     alert(`El consumo de combustible es ${resultado} litros por kilometro `)
+
+//     return resultado
+// }
+
+// calculus(litros, kilometros)
+
+
+
